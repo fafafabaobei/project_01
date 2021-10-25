@@ -1,0 +1,73 @@
+*{
+	padding: 0;
+	margin:0
+}
+.lunbotu{
+	width: 100%;
+	height: 200px;
+}
+.mint-swipe-indicators {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    top: 180px;
+}
+.mint-swipe {
+    overflow: hidden;
+    height: 150px;
+}
+.mint-swipe {
+    height: 200px  !important;
+}
+
+
+.back-img{
+	display: inline-block;
+	margin: 0 15px 0 15px;
+	width: 80px;
+	height: 80px;
+	background-repeat: round;
+	background-size: 100px 100px;
+}
+#home ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#home ul li{
+	margin-top: 10px;
+	list-style: none;
+}
+div ul li a div{
+	text-align: center;
+
+}
+a{
+	text-decoration: none;
+}
+.back01{
+	background-image: url('../img/dian.png');
+}
+.back02{
+	background-image: url('../img/yuechaxun.png');
+}
+.back03{
+	background-image: url('../img/heimao.png');
+}
+.back04{
+	background-image: url('../img/dizhidingwei.png');
+}
+.back05{
+	background-image: url('../img/sousuo.png');
+}
+.back06{
+	background-image: url('../img/gengduo.png');
+}
