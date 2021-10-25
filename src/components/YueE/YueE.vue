@@ -34,17 +34,15 @@ export default {
       console.log(res);
       this.tian_qi = res.data;
     })
-    .catch(err=>console.log(err))
-      var d = new Date();
-      d_yue = parseInt(d.getYear()/12);
-      d_nain = parseInt(d.getFullYear());
-      d_ri = parseInt(d.getDate());
-      console.log(d_nain + "--" + d_yue + "--" + d_ri);
-      console.log(d);
     this.time = get_time();
   },
   methods:{
     get_time(){
+    /*.catch(err=>console.log(err))
+      var d = new Date();
+      d_yue = parseInt(d.getYear()/12);
+      d_nain = parseInt(d.getFullYear());
+      d_ri = parseInt(d.getDate());*/
     }
   }
 }
